@@ -1,0 +1,13 @@
+{
+  "name": "nicheai",
+  "version": "1.0.0",
+  "description": "AI SaaS platform for niche markets",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
