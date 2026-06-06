@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     }
 
     // Your Anthropic API key — set in Vercel environment variables
-    const apiKey = process.env.ANTHROPIC_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
       return res.status(500).json({ error: 'API key not configured' });
     }
